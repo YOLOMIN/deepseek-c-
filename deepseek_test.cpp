@@ -6,7 +6,7 @@
 
 using json = nlohmann::json;
 
-const std::string API_KEY = "sk-86b672c79f6043df98dc5919050a3966";  // 替换为你的密钥
+const std::string API_KEY = "*";  // 替换为你的密钥
 const std::string API_URL = "https://api.deepseek.com/v1/chat/completions";
 
 bool testPortConnectivity(const std::string& host, int port) {
